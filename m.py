@@ -43,11 +43,15 @@ tc=time.time()
 D = A*B
 E = D*C
 F = E*A
+G = A*A*A*A*A*A*A*A*A*A*A*A*A*A*A*A*A*A
+H = B*B*B*B*B*B*B*B*B*B*B*B*B*B*B*B*B*B
+I = G*H
 td=time.time()
 
 print(D)
 print(E)
 print(F)
+print(I)
 print(td-tc)
 
 
