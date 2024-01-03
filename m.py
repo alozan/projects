@@ -46,12 +46,14 @@ F = E*A
 G = A*A*A*A*A*A*A*A*A*A*A*A*A*A*A*A*A*A
 H = B*B*B*B*B*B*B*B*B*B*B*B*B*B*B*B*B*B
 I = G*H
+J = np.dot(A,B)
 td=time.time()
 
 print(D)
 print(E)
 print(F)
 print(I)
+print(J)
 print(td-tc)
 
 
